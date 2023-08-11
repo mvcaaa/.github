@@ -1,4 +1,4 @@
-name: mvcaaa Organization Terraform fmt check CI
+name: Terraform fmt check CI
 
 on:
   push:

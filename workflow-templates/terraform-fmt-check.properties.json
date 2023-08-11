@@ -1,0 +1,9 @@
+{
+  "name": "Terraform fmt check CI",
+  "description": "Terraform CI starter workflow.",
+  "iconName": "terraform",
+  "categories": [
+      "HCL",
+      "Terraform"
+  ]
+}

@@ -1,5 +1,8 @@
 {
   "yaml.schemas": {
-    "https://json.schemastore.org/github-workflow.json": "file:///home/mvc/lab/mvcaaa-github/workflow-templates/mvcaaa-organization-terraform-fmt-validate.yml"
+    "https://json.schemastore.org/github-workflow.json": [
+      "file:///home/mvc/lab/mvcaaa-github/workflow-templates/mvcaaa-organization-terraform-fmt-validate.yml",
+      "file:///home/mvc/lab/mvcaaa-github/workflow-templates/terraform-fmt-check.yml"
+    ]
   }
 }
