@@ -1,0 +1,19 @@
+name: mvcaaa Organization Terraform fmt check CI
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: terraform fmt check
+        uses: dflook/terraform-fmt-check@v1
+
+

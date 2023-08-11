@@ -1,0 +1,9 @@
+{
+  "name": "mvcaaa Organization Terraform fmt check CI",
+  "description": "mvcaaa Terraform CI starter workflow.",
+  "iconName": "terraform",
+  "categories": [
+      "HCL",
+      "Terraform"
+  ]
+}
